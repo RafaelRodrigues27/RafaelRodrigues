@@ -1,14 +1,14 @@
 #imagem {
-    display: flex; /* Usa flexbox para alinhar o conteúdo */
-    align-items: center; /* Alinha verticalmente o conteúdo */
-    justify-content: center; /* Centraliza horizontalmente */
-    margin: 20px auto; /* Adiciona margem automática e superior/inferior */
-    max-width: 50%; /* Garante que não ultrapassa os limites */
-    padding: 20px; /* Espaçamento interno */
-    background-color: inherit; /* Herda o fundo da página */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 50%;
+    padding: 20px;
+    background-color: inherit; 
 }
 
 #imagem img {
-    max-width: 100%; /* Ajusta a largura da imagem dentro do container */
-    height: auto; /* Mantém a proporção da imagem */
+    max-width: 100%;
+    height: auto;
 }
